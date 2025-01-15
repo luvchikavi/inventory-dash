@@ -11,7 +11,7 @@ import numpy as np
 st.set_page_config(page_title="Inventory Management Dashboard", layout="wide")
 
 # App Title
-logo_path = '/Users/aviluvchik/Python Projects/inventory_dashboard/palram_logo.jpeg'
+logo_path = '/Users/aviluvchik/Python Projects/inventory_dashboard/superpharm_logo.png'
 logo = Image.open(logo_path)
 col1, col2 = st.columns([1, 8])
 col1.image(logo, use_column_width=True)
